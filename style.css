@@ -1,0 +1,39 @@
+.ball {
+    display: block;
+    background: black;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;  /*수직가운데*/
+    font-size: 28px;
+    border-radius: 50%;
+    text-align: center; /*수평가운데*/
+    color: #fff;
+    font-weight: 500;
+    margin-right: 6px;
+    text-shadow: 0px 0px 3px rgba(73,57,0,0.8);
+    box-shadow: 1px 0px 3px #555;
+}
+div:nth-child(2){
+    background: radial-gradient(circle at 65% 15%, white 1px, rgb(101, 255, 255) 3%, rgb(24, 24, 158) 60%, rgb(80, 226, 226) 100%);
+}
+div:nth-child(3){
+    background: radial-gradient(circle at 65% 15%, white 1px, rgb(255, 208, 106) 3%, rgb(133, 106, 34) 60%, #ffc358 100%);
+    
+}
+div:nth-child(4){
+    background: radial-gradient(circle at 65% 15%, white 1px, rgb(163, 163, 163) 3%, #333 60%, #ccc 100%);
+    
+}
+div:nth-child(5){
+    background: radial-gradient(circle at 65% 15%, white 1px, #cb8bff 3%, #573a6e 60%, #b07bda 100%);
+    /* background: #b07bda; */
+}
+div:nth-child(6){
+    background: radial-gradient(circle at 65% 15%, white 1px, #ff6d6d 3%, #7a2e2e 60%, #ff4f4f 100%);
+    /* background: #f3a0f5; */
+}
+div:nth-child(7){
+    background: radial-gradient(circle at 65% 15%, white 1px, #ff88d5 3%, #8b1060 60%, #f422aa 100%);
+    /* background: #f422aa; */
+}
