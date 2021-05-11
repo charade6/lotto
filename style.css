@@ -12,7 +12,7 @@
     font-weight: 500;
     margin-right: 6px;
     text-shadow: 0px 0px 3px rgba(73,57,0,0.8);
-    box-shadow: 1px 0px 3px #555;
+    box-shadow: 0px 5px 6px #555;
 }
 div:nth-child(2){
     background: radial-gradient(circle at 65% 15%, white 1px, rgb(101, 255, 255) 3%, rgb(24, 24, 158) 60%, rgb(80, 226, 226) 100%);
